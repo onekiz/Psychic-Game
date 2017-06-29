@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Psychic Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<div class="header">
+	<h1> Psychic Game</h1>
+</div>
+
+
+<div class="container">
+	
+	<form id="psychic-game">
+	  Type a letter: <input id = "playerLetter" type="text" placeholder="Enter Your Letter" onfocus="clearThis(this)">
+	</form>
+	
+	<button id ="btn" onclick="myFunction()">Try it</button>
+	
+
+
+	<br>
+
+	<div class = "data">
+		<p> Wins: <span id="wn"></span></p>
+		<p> Losses: <span id="lss"></span></p>
+		<p> Guess Letters: <span id="playerGuess"></span></p>
+		<p> Guess Left: <span id="life"></span></p>
+	</div>
+
+</div>
+
+<script src="assets/javascript/javascript.js"></script>
+</body>
+</html>
